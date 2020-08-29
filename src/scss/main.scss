@@ -1,0 +1,26 @@
+@import "base/normalize";
+@import "base/variables";
+@import "base/fonts";
+@import "base/mixins";
+@import "slick";
+
+@import "base/setting";
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/services";
+@import "blocks/advantages";
+@import "blocks/promo";
+@import "blocks/how-work";
+@import "blocks/feedback";
+@import "blocks/modal";
+@import "blocks/word-boss";
+@import "blocks/partners";
+@import "blocks/works";
+@import "blocks/questions";
+@import "blocks/contacts";
+
+@import "blocks/footer";
+
+/* always end */
+@import "media";

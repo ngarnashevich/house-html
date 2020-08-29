@@ -1,0 +1,71 @@
+/* 
+------------------- How-work -------------------
+*/
+
+.how-work {
+	width: 100%;
+	min-height: 532px;
+	// background-color: #dadada;
+	background-image: url(../img/how-work-bg.jpg);
+	background-repeat: repeat;
+	padding-top: 66px;
+	padding-bottom: 113px;
+
+	.container {
+		max-width: 1194px;
+	}
+
+	&__title {
+		color: #222222;
+		font-size: 36px;
+		font-weight: 900;
+		line-height: 48px;
+		margin-bottom: 42px;
+	}
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__item {
+		display: flex;
+		width: 350px;
+		margin-bottom: 61px;
+		position: relative;
+		&::after {
+			content: "";
+			display: block;
+			width: 21px;
+			height: 17px;
+			position: absolute;
+			right: -28px;
+			top: 50%;
+			transform: translateY(-50%);
+			background-image: url(../img/arrow-next.svg);
+			background-repeat: no-repeat;
+			// background-color: #39bde3;
+		}
+	}
+	&__image {
+		width: 107px;
+		height: 109px;
+		margin-right: 30px;
+	}
+	&__content {
+		// width: 218px;
+		padding-top: 16px;
+	}
+	&__subtitle {
+		color: #222222;
+		font-size: 20px;
+		font-weight: 900;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	&__text {
+		color: #555555;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+	}
+}

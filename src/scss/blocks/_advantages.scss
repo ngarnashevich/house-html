@@ -1,0 +1,85 @@
+/* 
+------------------- Advantages -------------------
+*/
+
+.advantages {
+	padding-top: 118px;
+	min-height: 871px;
+
+	.triangles {
+		display: block;
+		width: 36px;
+		height: 30px;
+		margin: 0 auto;
+		background-image: url(../img/triangle-1.svg);
+		background-repeat: no-repeat;
+		margin-bottom: 25px;
+		position: relative;
+		&::before {
+			content: "";
+			display: block;
+			width: 20px;
+			height: 17px;
+			background-image: url(../img/triangle-2.svg);
+			left: 23px;
+			position: absolute;
+			top: 44%;
+			transform: translateX(46%);
+		}
+		&::after {
+			content: "";
+			display: block;
+			width: 20px;
+			height: 17px;
+			background-image: url(../img/triangle-2.svg);
+			position: absolute;
+			right: 44px;
+			top: 44%;
+			transform: translateX(46%);
+		}
+	}
+	&__title {
+		color: #00293d;
+		font-size: 36px;
+		font-weight: 900;
+		line-height: 48px;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 43px;
+	}
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__item {
+		width: 370px;
+		min-height: 211px;
+		border: 1px solid #fafafa;
+		padding-top: 50px;
+	}
+	&__image {
+		display: block;
+		margin: 0 auto;
+		width: 73px;
+		height: 66px;
+		margin-bottom: 25px;
+	}
+	&__subtitle {
+		color: #00293d;
+		font-size: 16px;
+		font-weight: 900;
+		text-align: center;
+	}
+	&__more-text {
+		display: block;
+		color: #00293d;
+		min-height: 139px;
+		font-size: 18px;
+		font-weight: 900;
+		line-height: 24px;
+		padding: 49px 0 71px 0;
+		text-align: center;
+		border-top: 1px solid #fafafa;
+		border-bottom: 1px solid #fafafa;
+	}
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+
+	<title>Металичекие изделия</title>
+	<meta content="" name="description" />
+	<meta content="" property="og:image" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:site_name" />
+	<meta content="website" property="og:type" />
+
+	<meta content="telephone=no" name="format-detection" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="shortcut icon" href="favicon.png" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+
+<body></body>
+
+</html> <!-- begin header -->
+<header class="header">
+	<div class="container">
+		<nav class="header__nav">
+			<ul class="menu">
+				<li class="menu__item">
+					<a href="/" class="menu__link">Главная</a>
+				</li>
+				<li class="menu__item">
+					<a href="about.html" class="menu__link">о компании</a>
+				</li>
+				<li class="menu__item">
+					<a href="/#services" class="menu__link">наши услуги</a>
+				</li>
+				<li class="menu__item">
+					<a href="works.html" class="menu__link"
+						>выполненные работы</a
+					>
+				</li>
+				<li class="menu__item">
+					<a href="questions.html" class="menu__link">Вопросы</a>
+				</li>
+				<li class="menu__item">
+					<a href="contacts.html" class="menu__link">Контакты</a>
+				</li>
+			</ul>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="header__phone">
+				<a class="phone" href="tel:+88001617191">
+					8 (800) 161 71 91 <br />
+					<span>заказать звонок</span>
+				</a>
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- end header -->
+
+
+<!-- begin contacts -->
+<div class="contacts">
+	<div class="container">
+		<div class="contacts__wrap">
+			<div class="contacts__info">
+				<div class="contacts__title">Контакты</div>
+				<div class="contacts__phone">
+					+7 (3452) 68-22-62 <br />
+					+7 (952) 685-61-13
+				</div>
+				<a href="mailto:ooostroidom@mail.ru" class="contacts__email"
+					>ooostroidom@mail.ru</a
+				>
+				<address class="contacts__address">
+					г. Тюмень, ул. Чекистов 28, стр. 1
+				</address>
+				<button class="contacts__btn">Оставить заявку</button>
+			</div>
+
+			<div class="contacts__map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.376606108558!2d65.64472411598382!3d57.11352388093901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43bbe737178873d7%3A0x6eb5a9e9290b1ad5!2sUlitsa%20Chekistov%2C%2028%2C%20Tyumen%2C%20Tyumenskaya%20oblast&#39;%2C%20Russia%2C%20625014!5e0!3m2!1sen!2sua!4v1597772876270!5m2!1sen!2sua"
+					width="100%"
+					height="100%"
+					frameborder="0"
+					style="border: 0;"
+					allowfullscreen=""
+					aria-hidden="false"
+					tabindex="0"
+				></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end contacts -->
+
+<!-- begin overlay -->
+<div class="overlay">
+	<div class="modal">
+		<div class="modal__close">&times;</div>
+		<img
+			src="../img/modal-img.png"
+			alt="modal image"
+			class="modal__image"
+		/>
+
+		<div class="modal__form">
+			<div class="modal__subtitle">Здравствуйте!</div>
+			<div class="modal__desc">
+				Оставьте свой номер телефона и <br />
+				оператор свяжется с Вами в <br />
+				течение нескольких минут
+			</div>
+			<form id="modal-form">
+				<input
+					name="name"
+					type="text"
+					required
+					class="modal__name"
+					placeholder="Ваше имя"
+				/>
+				<input
+					name="phone"
+					type="number"
+					required
+					class="modal__phone"
+					placeholder="Телефон"
+				/>
+				<button class="modal__btn">получить консультацию</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end overlay -->
+
+<!-- begin q-overlay -->
+<div class="q-overlay">
+	<div class="q-modal">
+		<div class="q-modal__close">&times;</div>
+		<div class="q-modal__form">
+			<div class="q-modal__subtitle">
+				Заполните форму и задайте вопрос.
+			</div>
+			<form id="q-form">
+				<input
+					name="name"
+					type="text"
+					class="q-modal__name"
+					placeholder="Напишите Ваше имя"
+				/>
+				<textarea
+					name="textarea"
+					cols="30"
+					rows="10"
+					class="q-modal__textarea"
+					placeholder="Напишите Ваш вопрос"
+				></textarea>
+				<button class="q-modal__btn">задать вопрос</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end q-overlay -->
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

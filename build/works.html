@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+
+	<title>Металичекие изделия</title>
+	<meta content="" name="description" />
+	<meta content="" property="og:image" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:site_name" />
+	<meta content="website" property="og:type" />
+
+	<meta content="telephone=no" name="format-detection" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="shortcut icon" href="favicon.png" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+
+<body></body>
+
+</html> <!-- begin header -->
+<header class="header">
+	<div class="container">
+		<nav class="header__nav">
+			<ul class="menu">
+				<li class="menu__item">
+					<a href="/" class="menu__link">Главная</a>
+				</li>
+				<li class="menu__item">
+					<a href="about.html" class="menu__link">о компании</a>
+				</li>
+				<li class="menu__item">
+					<a href="/#services" class="menu__link">наши услуги</a>
+				</li>
+				<li class="menu__item">
+					<a href="works.html" class="menu__link"
+						>выполненные работы</a
+					>
+				</li>
+				<li class="menu__item">
+					<a href="questions.html" class="menu__link">Вопросы</a>
+				</li>
+				<li class="menu__item">
+					<a href="contacts.html" class="menu__link">Контакты</a>
+				</li>
+			</ul>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="header__phone">
+				<a class="phone" href="tel:+88001617191">
+					8 (800) 161 71 91 <br />
+					<span>заказать звонок</span>
+				</a>
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- end header -->
+
+
+<!-- begin works -->
+<div class="works">
+	<div class="container">
+		<div class="works__title">Фото выполненных работ</div>
+
+		<ul class="works__tabs">
+			<li class="works__tab works__tab_active">
+				Навесы
+			</li>
+			<li class="works__tab">
+				Козырьки
+			</li>
+			<li class="works__tab">
+				Беседки
+			</li>
+			<li class="works__tab">
+				Террасы
+			</li>
+		</ul>
+
+		<div class="works__slides-wrap">
+			<div class="works__slides">
+				<div>
+					<div class="works__slide">
+						<img
+							src="../img/Naves-dlya-avto-k-stene-7.jpg"
+							alt="slide 1"
+						/>
+					</div>
+				</div>
+				<div>
+					<div class="works__slide">
+						<img
+							src="../img/Naves-dlya-avto-k-stene-7.jpg"
+							alt="slide 1"
+						/>
+					</div>
+				</div>
+				<div>
+					<div class="works__slide">
+						<img
+							src="../img/Naves-dlya-avto-k-stene-7.jpg"
+							alt="slide 1"
+						/>
+					</div>
+				</div>
+
+				<button class="btn-prev"></button>
+				<button class="btn-next"></button>
+			</div>
+		</div>
+
+		<button class="works__btn">получить консультацию</button>
+	</div>
+</div>
+<!-- end works -->
+
+<!-- begin overlay -->
+<div class="overlay">
+	<div class="modal">
+		<div class="modal__close">&times;</div>
+		<img
+			src="../img/modal-img.png"
+			alt="modal image"
+			class="modal__image"
+		/>
+
+		<div class="modal__form">
+			<div class="modal__subtitle">Здравствуйте!</div>
+			<div class="modal__desc">
+				Оставьте свой номер телефона и <br />
+				оператор свяжется с Вами в <br />
+				течение нескольких минут
+			</div>
+			<form id="modal-form">
+				<input
+					name="name"
+					type="text"
+					required
+					class="modal__name"
+					placeholder="Ваше имя"
+				/>
+				<input
+					name="phone"
+					type="number"
+					required
+					class="modal__phone"
+					placeholder="Телефон"
+				/>
+				<button class="modal__btn">получить консультацию</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end overlay -->
+
+<!-- begin q-overlay -->
+<div class="q-overlay">
+	<div class="q-modal">
+		<div class="q-modal__close">&times;</div>
+		<div class="q-modal__form">
+			<div class="q-modal__subtitle">
+				Заполните форму и задайте вопрос.
+			</div>
+			<form id="q-form">
+				<input
+					name="name"
+					type="text"
+					class="q-modal__name"
+					placeholder="Напишите Ваше имя"
+				/>
+				<textarea
+					name="textarea"
+					cols="30"
+					rows="10"
+					class="q-modal__textarea"
+					placeholder="Напишите Ваш вопрос"
+				></textarea>
+				<button class="q-modal__btn">задать вопрос</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end q-overlay -->
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

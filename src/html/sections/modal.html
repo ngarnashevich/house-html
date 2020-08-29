@@ -1,0 +1,67 @@
+<!-- begin overlay -->
+<div class="overlay">
+	<div class="modal">
+		<div class="modal__close">&times;</div>
+		<img
+			src="../img/modal-img.png"
+			alt="modal image"
+			class="modal__image"
+		/>
+
+		<div class="modal__form">
+			<div class="modal__subtitle">Здравствуйте!</div>
+			<div class="modal__desc">
+				Оставьте свой номер телефона и <br />
+				оператор свяжется с Вами в <br />
+				течение нескольких минут
+			</div>
+			<form id="modal-form">
+				<input
+					name="name"
+					type="text"
+					required
+					class="modal__name"
+					placeholder="Ваше имя"
+				/>
+				<input
+					name="phone"
+					type="number"
+					required
+					class="modal__phone"
+					placeholder="Телефон"
+				/>
+				<button class="modal__btn">получить консультацию</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end overlay -->
+
+<!-- begin q-overlay -->
+<div class="q-overlay">
+	<div class="q-modal">
+		<div class="q-modal__close">&times;</div>
+		<div class="q-modal__form">
+			<div class="q-modal__subtitle">
+				Заполните форму и задайте вопрос.
+			</div>
+			<form id="q-form">
+				<input
+					name="name"
+					type="text"
+					class="q-modal__name"
+					placeholder="Напишите Ваше имя"
+				/>
+				<textarea
+					name="textarea"
+					cols="30"
+					rows="10"
+					class="q-modal__textarea"
+					placeholder="Напишите Ваш вопрос"
+				></textarea>
+				<button class="q-modal__btn">задать вопрос</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end q-overlay -->

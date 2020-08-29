@@ -1,0 +1,62 @@
+/* 
+------------------- Main -------------------
+*/
+.main {
+	min-height: 771px;
+	background: url(../img/main-bg.png) center center/cover no-repeat;
+	padding-top: 131px;
+
+	&__title {
+		color: #ffffff;
+		font-size: 48px;
+		font-weight: 900;
+		line-height: 60px;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 53px;
+	}
+	.list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&__item {
+			display: flex;
+			align-items: center;
+			margin-left: 100px;
+			margin-bottom: 59px;
+		}
+		&__item-img {
+			width: 26px;
+			height: 30px;
+		}
+		&__item-text {
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 30px;
+			text-transform: uppercase;
+			margin-left: 16px;
+		}
+	}
+
+	&__btn {
+		display: block;
+		width: 220px;
+		height: 60px;
+		background-color: #65b5fe;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 900;
+		line-height: 24px;
+		margin: 0 auto;
+		margin-bottom: 115px;
+		border: none;
+	}
+
+	&__scroll-down {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+}

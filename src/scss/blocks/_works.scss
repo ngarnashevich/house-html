@@ -1,0 +1,119 @@
+.works {
+	padding-top: 158px;
+
+	&__title {
+		color: #0d257b;
+		font-size: 48px;
+		font-weight: 900;
+		font-variant: small-caps;
+		margin-bottom: 45px;
+		text-align: center;
+	}
+
+	&__tabs {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	&__tab {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 179px;
+		height: 49px;
+		background-color: #ffffff;
+		color: #5c5c5c;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 17.85px;
+		margin-right: 20px;
+		border: 1px solid #e6e6e6;
+		cursor: pointer;
+		&_active {
+			color: #ffffff;
+			background-color: #4d6fac;
+		}
+	}
+	&__slides-wrap {
+		position: relative;
+	}
+	&__slides {
+		width: 920px;
+		height: 440px;
+		margin: 0 auto;
+		margin-bottom: 47px;
+		position: relative;
+	}
+	&__slide {
+		width: 920px;
+		height: 440px;
+		overflow: hidden;
+		margin: 0 auto;
+		border-radius: 24px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.btn-prev {
+		display: block;
+		width: 58px;
+		height: 58px;
+		border: 1px solid #dadada;
+		background-image: url("../img/arrow-back.svg");
+		background-size: 24px 24px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: -100px;
+		cursor: pointer;
+		outline: none;
+		&:hover {
+			background-color: #65b5fe;
+		}
+	}
+	.btn-next {
+		display: block;
+		width: 58px;
+		height: 58px;
+		border: 1px solid #dadada;
+		background-image: url("../img/next.svg");
+		background-size: 24px 24px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: -100px;
+		cursor: pointer;
+		outline: none;
+		&:hover {
+			background-color: #65b5fe;
+		}
+	}
+
+	&__btn {
+		display: block;
+		width: 257px;
+		height: 56px;
+		background-color: #fda12b;
+		background-image: linear-gradient(to top, #4d6fac 0%, #65b5fe 100%);
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 24px;
+		text-transform: uppercase;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		margin: 0 auto;
+		margin-bottom: 66px;
+	}
+}
+
+.slick-slide:focus {
+	outline: none;
+}
